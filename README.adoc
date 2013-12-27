@@ -11,12 +11,16 @@ TK
 
 The plugin adds a Grails script called `asciidoc`.
 
-This script will render any asciidoc files found in the `src/asciidoc` directory into `target/asciidoc`.
+The script will render any asciidoc files found in the `src/asciidoc` directory into `target/asciidoc`.
 
 == Configuration
 
 TK
 
+== Issues
+
+Please report any bugs or enhancement requests to the Github issue tracker.
+
 == References
-http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
-http://asciidoctor.org/docs/user-manual/
+* link:http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+* link:http://asciidoctor.org/docs/user-manual/
