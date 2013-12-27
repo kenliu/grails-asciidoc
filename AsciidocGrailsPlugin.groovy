@@ -10,6 +10,6 @@ class AsciidocGrailsPlugin {
 
 	def documentation = "http://grails.org/plugin/asciidoc"
 	def license = "APACHE"
-	def issueManagement = [ system: "GITHUB", url: "" ]
+	def issueManagement = [ system: "GITHUB", url: "https://github.com/kenliu/grails-asciidoc/issues" ]
 	def scm = [ url: "http://github.com/kenliu/grails-asciidoc" ]
 }
