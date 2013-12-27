@@ -1,0 +1,22 @@
+Asciidoc Grails Plugin
+======================
+
+Grails plugin for generating documentation from asciidoc sources using Asciidoctor via JRuby
+
+== Installation
+
+TK
+
+== Usage
+
+The plugin adds a Grails script called `asciidoc`.
+
+This script will render any asciidoc files found in the `src/asciidoc` directory into `target/asciidoc`.
+
+== Configuration
+
+TK
+
+== References
+http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+http://asciidoctor.org/docs/user-manual/
