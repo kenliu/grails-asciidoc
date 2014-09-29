@@ -14,11 +14,8 @@
  * limitations under the License.
  */
 
-import org.asciidoctor.Asciidoctor
 import org.asciidoctor.AsciiDocDirectoryWalker
-import org.asciidoctor.Attributes
-import org.asciidoctor.AttributesBuilder
-import org.asciidoctor.Options
+import org.asciidoctor.Asciidoctor
 import org.asciidoctor.OptionsBuilder
 import org.asciidoctor.SafeMode
 
@@ -29,7 +26,7 @@ target(docs: 'Generates HTML docs from asciidoc source') {
 	println 'generating documentation from asciidoc sources'
 
 	//println 'creating asciidoctor instance'
-	Asciidoctor asciidoctor = org.asciidoctor.Asciidoctor.Factory.create()
+	Asciidoctor asciidoctor = Asciidoctor.Factory.create()
 
 	def sourceDirectory = 'src/asciidoc'
 	def outputDirectory = 'target/asciidoc'
